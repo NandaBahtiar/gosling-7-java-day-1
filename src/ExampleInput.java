@@ -17,33 +17,40 @@ public class ExampleInput {
 //        System.out.println("luas persegi: "+area);
 
         //input biodata
-        Scanner scanner = new Scanner(System.in);
-        String nama ;
-        int umur ;
-        String alamat;
-        String hobi;
-        int tinggi;
+//        Scanner scanner = new Scanner(System.in);
+//        String nama ;
+//        int umur ;
+//        String alamat;
+//        String hobi;
+//        int tinggi;
+//
+//        System.out.print("Masukkan nama : ");
+//        nama = scanner.nextInt();
+//        System.out.print("Masukkan umur : ");
+//        umur = Integer.parseInt(scanner.nextLine());
+//        System.out.print("Masukkan hobi : ");
+//        hobi = scanner.nextLine();
+//        System.out.print("Masukkan tinggi : ");
+//        tinggi = Integer.parseInt(scanner.nextLine());// parsing data ke string
+//        System.out.print("Masukkan Kota : ");
+//        alamat = scanner.nextLine();
+//
+//
+//        System.out.println("nama    : "+nama);
+//        System.out.println("umur    : "+umur);
+//        System.out.println("hobi    : "+hobi);
+//        System.out.println("tinggi  : "+tinggi);
+//        System.out.println("alamat  : "+alamat);
 
-        System.out.print("Masukkan nama : ");
-        nama = scanner.nextLine();
-        System.out.print("Masukkan umur : ");
-        umur = Integer.parseInt(scanner.nextLine());
-        System.out.print("Masukkan hobi : ");
-        hobi = scanner.nextLine();
-        System.out.print("Masukkan tinggi : ");
-        tinggi = Integer.parseInt(scanner.nextLine());// parsing data ke string
-        System.out.print("Masukkan Kota : ");
-        alamat = scanner.nextLine();
+        //end input biodata
 
+//        double valume = 0.75 * 3.14 * 2;
+//        System.out.println("valume : "+valume);
 
-        System.out.println("nama    : "+nama);
-        System.out.println("umur    : "+umur);
-        System.out.println("hobi    : "+hobi);
-        System.out.println("tinggi  : "+tinggi);
-        System.out.println("alamat  : "+alamat);
-
-
-
-
+//        Scanner scanner = new Scanner(System.in);
+//        double phi =  3.14;
+//        double radius = scanner.nextDouble();
+//        double valume = (4.0/3.0) * phi * radius * radius * radius;
+//        System.out.println("valume : "+valume);
     }
 }
