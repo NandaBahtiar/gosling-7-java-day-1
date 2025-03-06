@@ -19,8 +19,34 @@ public class ExampleOperator {
         *
         * */
 
+
         int number1 = 300;
         int number2 = 200;
+
+        // augmented operator
+        number1 = number1 + 100;
+        System.out.println(number1);
+        number1 += 100; //ini contoh augmented operator
+        System.out.println(number1);
+        System.out.println(number2++);
+        System.out.println(number2);
+        System.out.println(++number2);
+        System.out.println(number2);
+        System.out.println("=".repeat(40));
+
+        System.out.println("perbandingan");
+        int value1 = 100;
+        int value2 = 200;
+        System.out.println(value1 < value2);
+        System.out.println(value1 > value2);
+
+        String firstName = "John";
+        String lastName = "Smith";
+        System.out.println(firstName == lastName);
+        System.out.println(firstName.equals(lastName));
+
+        System.out.println("=".repeat(40));
+
         double pembagian = (double) number1 / number2;
         int sum = number1 + number2;
         System.out.println(sum);
@@ -42,5 +68,16 @@ public class ExampleOperator {
         Float numberFloat = Float.parseFloat(stringNumber);
         System.out.println(numberFloat);
         System.out.println(numberFloat.getClass().getSimpleName());
+        System.out.println("=".repeat(40));
+
+        int a = 15;
+        int b = 20;
+
+        int tampung = a;
+        a = b;
+        b = tampung;
+
+        System.out.printf("a %d - b %d", a, b);
+
     }
 }
