@@ -3,7 +3,7 @@ public class ExampleOperator {
         /**
          * aturan penamaan
          * 1, pascal case   : nama class
-         * 2 camelCase      : variable, Method
+         * 2  camelCase     : variable, Method
          * 3, sneak_case    : variable, Method
          * 4, kebab-case    : nama file (java-fundamental)
          * 5. SCREAMING_CASE: variabel constan ( tidak dapat di ubah)
